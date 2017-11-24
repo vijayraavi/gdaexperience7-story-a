@@ -1,0 +1,2 @@
+MainPackage=D:\Projects\contosoair\src\ContosoAir.Clients.UWP\bin\x86\Debug\ContosoAir.Clients.UWP_1.0.0.0_x86_Debug.appx
+SymbolPackage=D:\Projects\contosoair\src\ContosoAir.Clients.UWP\AppPackages\ContosoAir.Clients.UWP_1.0.0.0_Debug_Test\ContosoAir.Clients.UWP_1.0.0.0_x86_Debug.appxsym

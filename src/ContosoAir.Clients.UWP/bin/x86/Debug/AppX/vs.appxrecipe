@@ -1,0 +1,995 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WSD28</Machine>
+    <WindowsUser>tushar.dhote</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>0f6c78e9-150c-4cd7-9059-fe1b1da2afe7</PackageIdentityName>
+    <PackageIdentityPublisher>CN=D03DF02E-26F3-4715-9242-3AFE58506EBD</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>B74E8B66C2154F948225BD2DF5E4E6BC30D6260A6386411BFAE67DE90EA2E72C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>RgenSoftwareSolutionsIPvt.3105117CFC3FB_1.1.0.0_x86__vmrahy4bnh7x6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>RgenSoftwareSolutionsIPvt.3105117CFC3FB_vmrahy4bnh7x6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>RgenSoftwareSolutionsIPvt.3105117CFC3FB</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=D03DF02E-26F3-4715-9242-3AFE58506EBD</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-23T07:53:16.687</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\bin\x86\Debug\ContosoAir.Clients.UWP.exe">
+      <PackagePath>entrypoint\ContosoAir.Clients.UWP.exe</PackagePath>
+      <Modified>2017-11-23T07:53:15.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\acr.userdialogs\5.0.0\lib\uap10.0\Acr.UserDialogs.Interface.dll">
+      <PackagePath>Acr.UserDialogs.Interface.dll</PackagePath>
+      <Modified>2016-04-28T09:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\acr.userdialogs\5.0.0\lib\uap10.0\Acr.UserDialogs.dll">
+      <PackagePath>Acr.UserDialogs.dll</PackagePath>
+      <Modified>2016-04-28T09:55:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\coding4fun.toolkit.controls\2.1.6\lib\netcore451\Coding4Fun.Toolkit.Controls.dll">
+      <PackagePath>Coding4Fun.Toolkit.Controls.dll</PackagePath>
+      <Modified>2015-09-15T12:12:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\coding4fun.toolkit.controls\2.1.6\lib\netcore451\Coding4Fun.Toolkit.dll">
+      <PackagePath>Coding4Fun.Toolkit.dll</PackagePath>
+      <Modified>2015-09-15T12:12:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\commonservicelocator\1.3.0\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2014-05-05T05:55:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\hockeysdk.core\4.1.6\lib\portable-net45+win8+wp8+wpa81+win81+uap10.0\Microsoft.HockeyApp.Core45.dll">
+      <PackagePath>Microsoft.HockeyApp.Core45.dll</PackagePath>
+      <Modified>2017-01-24T11:25:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\hockeysdk.uwp\4.1.6\lib\uap10.0\Microsoft.HockeyApp.Kit.dll">
+      <PackagePath>Microsoft.HockeyApp.Kit.dll</PackagePath>
+      <Modified>2017-01-24T11:25:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\hockeysdk.xamarin\4.1.1\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\HockeySDK.dll">
+      <PackagePath>HockeySDK.dll</PackagePath>
+      <Modified>2017-01-20T04:46:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.csharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
+      <PackagePath>Microsoft.CSharp.dll</PackagePath>
+      <Modified>2015-07-22T17:36:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.identity.client\1.0.304142221-alpha\lib\netcore45\Microsoft.Identity.Client.Platform.dll">
+      <PackagePath>Microsoft.Identity.Client.Platform.dll</PackagePath>
+      <Modified>2016-04-14T16:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.identity.client\1.0.304142221-alpha\lib\netcore45\Microsoft.Identity.Client.dll">
+      <PackagePath>Microsoft.Identity.Client.dll</PackagePath>
+      <Modified>2016-04-14T16:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+      <Modified>2015-02-19T14:40:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+      <Modified>2015-02-19T14:40:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
+      <Modified>2015-07-22T17:36:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+      <Modified>2015-07-22T17:36:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Net.dll">
+      <PackagePath>System.Net.dll</PackagePath>
+      <Modified>2015-07-22T17:36:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Numerics.dll">
+      <PackagePath>System.Numerics.dll</PackagePath>
+      <Modified>2015-07-22T17:36:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Runtime.Serialization.dll">
+      <PackagePath>System.Runtime.Serialization.dll</PackagePath>
+      <Modified>2015-07-22T17:36:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.ServiceModel.Web.dll">
+      <PackagePath>System.ServiceModel.Web.dll</PackagePath>
+      <Modified>2015-07-22T17:36:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.ServiceModel.dll">
+      <PackagePath>System.ServiceModel.dll</PackagePath>
+      <Modified>2015-07-22T17:36:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Windows.dll">
+      <PackagePath>System.Windows.dll</PackagePath>
+      <Modified>2015-07-22T17:36:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Xml.Linq.dll">
+      <PackagePath>System.Xml.Linq.dll</PackagePath>
+      <Modified>2015-07-22T17:36:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Xml.Serialization.dll">
+      <PackagePath>System.Xml.Serialization.dll</PackagePath>
+      <Modified>2015-07-22T17:36:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Xml.dll">
+      <PackagePath>System.Xml.dll</PackagePath>
+      <Modified>2015-07-22T17:36:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.dll">
+      <PackagePath>System.dll</PackagePath>
+      <Modified>2015-07-22T17:36:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.projectoxford.common\1.0.308\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Microsoft.ProjectOxford.Common.dll">
+      <PackagePath>Microsoft.ProjectOxford.Common.dll</PackagePath>
+      <Modified>2016-06-03T09:40:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.projectoxford.emotion\1.0.326\lib\portable45-net45+win8+wp8+wpa81\Microsoft.ProjectOxford.Emotion.dll">
+      <PackagePath>Microsoft.ProjectOxford.Emotion.dll</PackagePath>
+      <Modified>2016-08-02T08:35:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.visualbasic\10.0.0\lib\netcore50\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+      <Modified>2015-07-22T17:37:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\microsoft.win32.primitives\4.0.0\lib\dotnet\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+      <Modified>2015-07-22T17:37:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\newtonsoft.json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2016-06-13T17:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\pclstorage\1.0.2\lib\portable-win8+wpa81\PCLStorage.Abstractions.dll">
+      <PackagePath>PCLStorage.Abstractions.dll</PackagePath>
+      <Modified>2015-01-18T05:06:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\pclstorage\1.0.2\lib\portable-win8+wpa81\PCLStorage.dll">
+      <PackagePath>PCLStorage.dll</PackagePath>
+      <Modified>2015-01-18T05:06:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\skiasharp\1.56.1\runtimes\win10-x86\native\libEGL.dll">
+      <PackagePath>libEGL.dll</PackagePath>
+      <Modified>2017-02-07T04:07:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\skiasharp\1.56.1\runtimes\win10-x86\native\libGLESv2.dll">
+      <PackagePath>libGLESv2.dll</PackagePath>
+      <Modified>2017-02-07T04:07:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\skiasharp\1.56.1\runtimes\win10-x86\native\libSkiaSharp.dll">
+      <PackagePath>libSkiaSharp.dll</PackagePath>
+      <Modified>2017-02-07T04:07:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\skiasharp\1.56.1\lib\uap10.0\SkiaSharp.dll">
+      <PackagePath>SkiaSharp.dll</PackagePath>
+      <Modified>2017-02-07T04:07:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\splat\1.6.2\lib\NetCore45\Splat.dll">
+      <PackagePath>Splat.dll</PackagePath>
+      <Modified>2015-03-21T15:37:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.appcontext\4.0.0\lib\netcore50\System.AppContext.dll">
+      <PackagePath>System.AppContext.dll</PackagePath>
+      <Modified>2015-07-22T17:37:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.collections\4.0.10\lib\netcore50\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+      <Modified>2015-07-22T17:37:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.collections.concurrent\4.0.10\lib\dotnet\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2015-07-22T17:37:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.collections.immutable\1.1.37\lib\dotnet\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+      <Modified>2015-07-22T17:37:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.collections.nongeneric\4.0.0\lib\dotnet\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+      <Modified>2015-07-22T17:37:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.collections.specialized\4.0.0\lib\dotnet\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+      <Modified>2015-07-22T17:37:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.componentmodel\4.0.0\lib\netcore50\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2015-07-22T17:37:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.componentmodel.annotations\4.0.10\lib\dotnet\System.ComponentModel.Annotations.dll">
+      <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
+      <Modified>2015-07-22T17:37:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.componentmodel.eventbasedasync\4.0.10\lib\dotnet\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+      <Modified>2015-07-22T17:37:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.data.common\4.0.0\lib\dotnet\System.Data.Common.dll">
+      <PackagePath>System.Data.Common.dll</PackagePath>
+      <Modified>2015-07-22T17:37:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.diagnostics.contracts\4.0.0\lib\netcore50\System.Diagnostics.Contracts.dll">
+      <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
+      <Modified>2015-07-22T17:37:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.diagnostics.debug\4.0.10\lib\netcore50\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+      <Modified>2015-07-22T17:37:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.diagnostics.stacktrace\4.0.0\lib\netcore50\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+      <Modified>2015-07-22T17:37:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.diagnostics.tools\4.0.0\lib\netcore50\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+      <Modified>2015-07-22T17:37:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.diagnostics.tracing\4.0.20\lib\netcore50\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+      <Modified>2015-07-22T17:37:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.dynamic.runtime\4.0.10\lib\netcore50\System.Dynamic.Runtime.dll">
+      <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
+      <Modified>2015-07-22T17:37:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.globalization\4.0.10\lib\netcore50\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+      <Modified>2015-07-22T17:38:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.globalization.calendars\4.0.0\lib\netcore50\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+      <Modified>2015-07-22T17:37:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.globalization.extensions\4.0.0\lib\dotnet\System.Globalization.Extensions.dll">
+      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
+      <Modified>2015-07-22T17:37:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.io\4.0.10\lib\netcore50\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+      <Modified>2015-07-22T17:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.io.compression\4.0.0\lib\netcore50\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+      <Modified>2015-07-22T17:38:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.io.compression.clrcompression-x86\4.0.0\runtimes\win10-x86\native\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+      <Modified>2015-07-22T17:38:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.io.compression.zipfile\4.0.0\lib\dotnet\System.IO.Compression.ZipFile.dll">
+      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
+      <Modified>2015-07-22T17:38:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.io.filesystem\4.0.0\lib\netcore50\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+      <Modified>2015-07-22T17:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.io.filesystem.primitives\4.0.0\lib\dotnet\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
+      <Modified>2015-07-22T17:38:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.io.isolatedstorage\4.0.0\lib\netcore50\System.IO.IsolatedStorage.dll">
+      <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
+      <Modified>2015-07-22T17:38:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.io.unmanagedmemorystream\4.0.0\lib\dotnet\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
+      <Modified>2015-07-22T17:38:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.linq\4.0.0\lib\netcore50\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+      <Modified>2015-07-22T17:38:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.linq.expressions\4.0.10\lib\netcore50\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+      <Modified>2015-07-22T17:38:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.linq.parallel\4.0.0\lib\netcore50\System.Linq.Parallel.dll">
+      <PackagePath>System.Linq.Parallel.dll</PackagePath>
+      <Modified>2015-07-22T17:38:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.linq.queryable\4.0.0\lib\netcore50\System.Linq.Queryable.dll">
+      <PackagePath>System.Linq.Queryable.dll</PackagePath>
+      <Modified>2015-07-22T17:38:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.net.http\4.0.0\lib\netcore50\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+      <Modified>2015-07-22T17:38:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.net.http.rtc\4.0.0\lib\netcore50\System.Net.Http.Rtc.dll">
+      <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
+      <Modified>2015-07-22T17:38:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.net.networkinformation\4.0.0\lib\netcore50\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+      <Modified>2015-07-22T17:38:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.net.primitives\4.0.10\lib\netcore50\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+      <Modified>2015-07-22T17:38:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.net.requests\4.0.10\lib\dotnet\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+      <Modified>2015-07-22T17:38:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.net.sockets\4.0.0\lib\netcore50\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+      <Modified>2015-07-22T17:38:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.net.webheadercollection\4.0.0\lib\dotnet\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+      <Modified>2015-07-22T17:38:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.numerics.vectors\4.1.0\lib\dotnet\System.Numerics.Vectors.dll">
+      <PackagePath>System.Numerics.Vectors.dll</PackagePath>
+      <Modified>2015-07-22T17:39:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.numerics.vectors.windowsruntime\4.0.0\lib\dotnet\System.Numerics.Vectors.WindowsRuntime.dll">
+      <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-07-22T17:39:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.objectmodel\4.0.10\lib\dotnet\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+      <Modified>2015-07-22T17:39:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.private.datacontractserialization\4.0.0\lib\netcore50\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+      <Modified>2015-07-22T17:39:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.private.networking\4.0.0\lib\netcore50\System.Private.Networking.dll">
+      <PackagePath>System.Private.Networking.dll</PackagePath>
+      <Modified>2015-07-22T17:39:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.private.servicemodel\4.0.0\lib\netcore50\System.Private.ServiceModel.dll">
+      <PackagePath>System.Private.ServiceModel.dll</PackagePath>
+      <Modified>2015-07-22T17:39:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.private.uri\4.0.0\lib\netcore50\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+      <Modified>2015-07-22T17:39:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.reflection\4.0.10\lib\netcore50\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+      <Modified>2015-07-22T17:39:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.reflection.context\4.0.0\lib\netcore50\System.Reflection.Context.dll">
+      <PackagePath>System.Reflection.Context.dll</PackagePath>
+      <Modified>2015-07-22T17:39:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.reflection.dispatchproxy\4.0.0\lib\netcore50\System.Reflection.DispatchProxy.dll">
+      <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
+      <Modified>2015-07-22T17:39:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.reflection.emit\4.0.0\lib\netcore50\System.Reflection.Emit.dll">
+      <PackagePath>System.Reflection.Emit.dll</PackagePath>
+      <Modified>2015-07-22T17:39:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.reflection.emit.ilgeneration\4.0.0\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
+      <Modified>2015-07-22T17:39:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.reflection.emit.lightweight\4.0.0\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
+      <Modified>2015-07-22T17:39:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.reflection.extensions\4.0.0\lib\netcore50\System.Reflection.Extensions.dll">
+      <PackagePath>System.Reflection.Extensions.dll</PackagePath>
+      <Modified>2015-07-22T17:39:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.reflection.metadata\1.0.22\lib\dotnet\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+      <Modified>2015-07-22T17:39:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.reflection.primitives\4.0.0\lib\netcore50\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+      <Modified>2015-07-22T17:39:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.reflection.typeextensions\4.0.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
+      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
+      <Modified>2015-07-22T17:39:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.resources.resourcemanager\4.0.0\lib\netcore50\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+      <Modified>2015-07-22T17:39:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.runtime\4.0.20\lib\netcore50\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2015-07-22T17:39:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.runtime.extensions\4.0.10\lib\netcore50\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+      <Modified>2015-07-22T17:39:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.runtime.handles\4.0.0\lib\netcore50\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+      <Modified>2015-07-22T17:39:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.runtime.interopservices\4.0.20\lib\netcore50\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+      <Modified>2015-07-22T17:39:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.runtime.interopservices.windowsruntime\4.0.0\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-07-22T17:39:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.runtime.numerics\4.0.0\lib\netcore50\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+      <Modified>2015-07-22T17:39:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.runtime.serialization.json\4.0.0\lib\netcore50\System.Runtime.Serialization.Json.dll">
+      <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
+      <Modified>2015-07-22T17:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.runtime.serialization.primitives\4.0.10\lib\dotnet\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
+      <Modified>2015-07-22T17:40:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.runtime.serialization.xml\4.0.10\lib\netcore50\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
+      <Modified>2015-07-22T17:40:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.runtime.windowsruntime\4.0.10\lib\netcore50\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-07-22T17:40:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.runtime.windowsruntime.ui.xaml\4.0.0\lib\netcore50\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
+      <Modified>2015-07-22T17:40:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.security.claims\4.0.0\lib\dotnet\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+      <Modified>2015-07-22T17:40:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.security.principal\4.0.0\lib\netcore50\System.Security.Principal.dll">
+      <PackagePath>System.Security.Principal.dll</PackagePath>
+      <Modified>2015-07-22T17:40:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.servicemodel.duplex\4.0.0\lib\netcore50\System.ServiceModel.Duplex.dll">
+      <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
+      <Modified>2015-07-22T17:40:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.servicemodel.http\4.0.10\lib\netcore50\System.ServiceModel.Http.dll">
+      <PackagePath>System.ServiceModel.Http.dll</PackagePath>
+      <Modified>2015-07-22T17:40:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.servicemodel.nettcp\4.0.0\lib\netcore50\System.ServiceModel.NetTcp.dll">
+      <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
+      <Modified>2015-07-22T17:40:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.servicemodel.primitives\4.0.0\lib\netcore50\System.ServiceModel.Primitives.dll">
+      <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
+      <Modified>2015-07-22T17:40:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.servicemodel.security\4.0.0\lib\netcore50\System.ServiceModel.Security.dll">
+      <PackagePath>System.ServiceModel.Security.dll</PackagePath>
+      <Modified>2015-07-22T17:40:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.text.encoding\4.0.10\lib\netcore50\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+      <Modified>2015-07-22T17:40:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.text.encoding.codepages\4.0.0\lib\dotnet\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+      <Modified>2015-07-22T17:40:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.text.encoding.extensions\4.0.10\lib\netcore50\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+      <Modified>2015-07-22T17:40:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.text.regularexpressions\4.0.10\lib\dotnet\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+      <Modified>2015-07-22T17:40:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.threading\4.0.10\lib\netcore50\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+      <Modified>2015-07-22T17:40:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.threading.overlapped\4.0.0\lib\netcore50\System.Threading.Overlapped.dll">
+      <PackagePath>System.Threading.Overlapped.dll</PackagePath>
+      <Modified>2015-07-22T17:40:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.threading.tasks\4.0.10\lib\netcore50\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+      <Modified>2015-07-22T17:40:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.threading.tasks.dataflow\4.5.25\lib\dotnet\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
+      <Modified>2015-07-22T17:40:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.threading.tasks.parallel\4.0.0\lib\netcore50\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
+      <Modified>2015-07-22T17:41:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.threading.timer\4.0.0\lib\netcore50\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+      <Modified>2015-07-22T17:41:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.xml.readerwriter\4.0.10\lib\dotnet\System.Xml.ReaderWriter.dll">
+      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
+      <Modified>2015-07-22T17:41:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.xml.xdocument\4.0.10\lib\dotnet\System.Xml.XDocument.dll">
+      <PackagePath>System.Xml.XDocument.dll</PackagePath>
+      <Modified>2015-07-22T17:41:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.xml.xmldocument\4.0.0\lib\dotnet\System.Xml.XmlDocument.dll">
+      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
+      <Modified>2015-07-22T17:41:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\system.xml.xmlserializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
+      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+      <Modified>2015-07-22T17:41:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\unity\4.0.1\lib\win8\Microsoft.Practices.Unity.RegistrationByConvention.dll">
+      <PackagePath>Microsoft.Practices.Unity.RegistrationByConvention.dll</PackagePath>
+      <Modified>2015-10-05T04:07:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\unity\4.0.1\lib\win8\Microsoft.Practices.Unity.dll">
+      <PackagePath>Microsoft.Practices.Unity.dll</PackagePath>
+      <Modified>2015-10-05T04:07:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\windowsazure.messaging.managed\0.1.7.9\lib\netcore45\Microsoft.WindowsAzure.Messaging.Managed.dll">
+      <PackagePath>Microsoft.WindowsAzure.Messaging.Managed.dll</PackagePath>
+      <Modified>2014-07-30T06:42:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\xam.plugin.media\2.6.2\lib\UAP10\Plugin.Media.Abstractions.dll">
+      <PackagePath>Plugin.Media.Abstractions.dll</PackagePath>
+      <Modified>2017-01-06T15:50:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\xam.plugin.media\2.6.2\lib\UAP10\Plugin.Media.dll">
+      <PackagePath>Plugin.Media.dll</PackagePath>
+      <Modified>2017-01-06T15:50:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\xam.plugins.settings\2.6.0.12-beta\lib\UAP10\Plugin.Settings.Abstractions.dll">
+      <PackagePath>Plugin.Settings.Abstractions.dll</PackagePath>
+      <Modified>2016-10-07T18:50:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\xam.plugins.settings\2.6.0.12-beta\lib\UAP10\Plugin.Settings.dll">
+      <PackagePath>Plugin.Settings.dll</PackagePath>
+      <Modified>2016-10-07T18:50:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\xamarin.ffimageloading\2.2.9\lib\portable-netcore45+wpa81\FFImageLoading.Platform.dll">
+      <PackagePath>FFImageLoading.Platform.dll</PackagePath>
+      <Modified>2017-02-25T12:43:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\xamarin.ffimageloading\2.2.9\lib\portable-netcore45+wpa81\FFImageLoading.dll">
+      <PackagePath>FFImageLoading.dll</PackagePath>
+      <Modified>2017-02-25T12:43:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\xamarin.ffimageloading.forms\2.2.9\lib\uap10.0\FFImageLoading.Forms.WinUWP.dll">
+      <PackagePath>FFImageLoading.Forms.WinUWP.dll</PackagePath>
+      <Modified>2017-02-25T12:43:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\xamarin.ffimageloading.forms\2.2.9\lib\uap10.0\FFImageLoading.Forms.dll">
+      <PackagePath>FFImageLoading.Forms.dll</PackagePath>
+      <Modified>2017-02-25T12:43:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\xamarin.ffimageloading.svg\2.2.9\lib\uap10.0\FFImageLoading.Svg.Platform.dll">
+      <PackagePath>FFImageLoading.Svg.Platform.dll</PackagePath>
+      <Modified>2017-02-25T12:43:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\xamarin.ffimageloading.svg.forms\2.2.9\lib\uap10.0\FFImageLoading.Svg.Forms.dll">
+      <PackagePath>FFImageLoading.Svg.Forms.dll</PackagePath>
+      <Modified>2017-02-25T12:43:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\xamarin.ffimageloading.transformations\2.2.9\lib\portable-netcore45+wpa81\FFImageLoading.Transformations.dll">
+      <PackagePath>FFImageLoading.Transformations.dll</PackagePath>
+      <Modified>2017-02-25T12:43:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\xamarin.forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+      <Modified>2016-12-14T10:32:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\xamarin.forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
+      <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
+      <Modified>2016-12-14T10:32:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\xamarin.forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+      <Modified>2016-12-14T10:32:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\xamarin.forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+      <Modified>2016-12-14T10:32:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients\bin\Debug\ContosoAir.Clients.Core.dll">
+      <PackagePath>ContosoAir.Clients.Core.dll</PackagePath>
+      <Modified>2017-11-23T07:53:12.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients\bin\Debug\ContosoAir.Clients.Core.dll.config">
+      <PackagePath>ContosoAir.Clients.Core.dll.config</PackagePath>
+      <Modified>2017-11-23T05:59:05.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\barcelona.png">
+      <PackagePath>Assets\barcelona.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\barcode.png">
+      <PackagePath>Assets\barcode.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\booking_form.png">
+      <PackagePath>Assets\booking_form.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\camera.png">
+      <PackagePath>Assets\camera.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\check.png">
+      <PackagePath>Assets\check.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\contact_icon.png">
+      <PackagePath>Assets\contact_icon.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\default_profile.png">
+      <PackagePath>Assets\default_profile.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\flight_connecting_black.png">
+      <PackagePath>Assets\flight_connecting_black.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\flight_connecting_white.png">
+      <PackagePath>Assets\flight_connecting_white.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\background.png">
+      <PackagePath>Assets\background.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\filter.png">
+      <PackagePath>Assets\filter.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\flights_icon.png">
+      <PackagePath>Assets\flights_icon.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\gate_change_icon.png">
+      <PackagePath>Assets\gate_change_icon.png</PackagePath>
+      <Modified>2017-09-19T11:42:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\hawaii.png">
+      <PackagePath>Assets\hawaii.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\loaderpannel.png">
+      <PackagePath>Assets\loaderpannel.png</PackagePath>
+      <Modified>2017-09-28T09:53:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\Login\contosoair_name.png">
+      <PackagePath>Assets\Login\contosoair_name.png</PackagePath>
+      <Modified>2017-09-09T07:10:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\Login\icon.png">
+      <PackagePath>Assets\Login\icon.png</PackagePath>
+      <Modified>2017-09-09T07:10:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\logout_icon.png">
+      <PackagePath>Assets\logout_icon.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\london.png">
+      <PackagePath>Assets\london.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\mic_off_icon.png">
+      <PackagePath>Assets\mic_off_icon.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\mic_on_icon.png">
+      <PackagePath>Assets\mic_on_icon.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\msa.png">
+      <PackagePath>Assets\msa.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\my_trips_icon.png">
+      <PackagePath>Assets\my_trips_icon.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\notification_icon.png">
+      <PackagePath>Assets\notification_icon.png</PackagePath>
+      <Modified>2017-09-19T11:42:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\paris.png">
+      <PackagePath>Assets\paris.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\placeholder.png">
+      <PackagePath>Assets\placeholder.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\plane.png">
+      <PackagePath>Assets\plane.png</PackagePath>
+      <Modified>2017-09-21T11:58:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\profile_icon.png">
+      <PackagePath>Assets\profile_icon.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\rating.png">
+      <PackagePath>Assets\rating.png</PackagePath>
+      <Modified>2017-09-20T15:33:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\report_open_bot.png">
+      <PackagePath>Assets\report_open_bot.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\right_chevron_white.png">
+      <PackagePath>Assets\right_chevron_white.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\rio_de_janeiro.png">
+      <PackagePath>Assets\rio_de_janeiro.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\seattle.png">
+      <PackagePath>Assets\seattle.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\separator.png">
+      <PackagePath>Assets\separator.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\singapore.png">
+      <PackagePath>Assets\singapore.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\sort.png">
+      <PackagePath>Assets\sort.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\tokyo.png">
+      <PackagePath>Assets\tokyo.png</PackagePath>
+      <Modified>2017-09-09T07:10:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\erika.jpg">
+      <PackagePath>Assets\erika.jpg</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\nagu.jpg">
+      <PackagePath>Assets\nagu.jpg</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\sarah.jpg">
+      <PackagePath>Assets\sarah.jpg</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\seattle.jpg">
+      <PackagePath>Assets\seattle.jpg</PackagePath>
+      <Modified>2017-09-09T07:10:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\Fonts\Poppins-Regular.ttf">
+      <PackagePath>Assets\Fonts\Poppins-Regular.ttf</PackagePath>
+      <Modified>2017-09-09T07:10:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\Fonts\Karla-Regular.ttf">
+      <PackagePath>Assets\Fonts\Karla-Regular.ttf</PackagePath>
+      <Modified>2017-09-09T07:10:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\Fonts\Karla-Bold.ttf">
+      <PackagePath>Assets\Fonts\Karla-Bold.ttf</PackagePath>
+      <Modified>2017-09-09T07:10:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\gifimage.gif">
+      <PackagePath>Assets\gifimage.gif</PackagePath>
+      <Modified>2017-10-03T07:34:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\load.gif">
+      <PackagePath>Assets\load.gif</PackagePath>
+      <Modified>2017-10-03T06:45:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\loader.gif">
+      <PackagePath>Assets\loader.gif</PackagePath>
+      <Modified>2017-09-29T06:09:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\loadergif.gif">
+      <PackagePath>Assets\loadergif.gif</PackagePath>
+      <Modified>2017-10-03T06:39:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\loadergiff.gif">
+      <PackagePath>Assets\loadergiff.gif</PackagePath>
+      <Modified>2017-10-03T06:39:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\loading.gif">
+      <PackagePath>Assets\loading.gif</PackagePath>
+      <Modified>2017-09-28T14:51:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Assets\loadinggif.gif">
+      <PackagePath>Assets\loadinggif.gif</PackagePath>
+      <Modified>2017-10-03T06:59:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2017-09-09T07:10:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\bin\x86\Debug\ContosoAir.Clients.UWP.xr.xml">
+      <PackagePath>ContosoAir.Clients.UWP.xr.xml</PackagePath>
+      <Modified>2017-11-22T09:04:51.196</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2017-10-10T04:15:53.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\acr.userdialogs\5.0.0\lib\uap10.0\Acr.UserDialogs\Acr.UserDialogs.xr.xml">
+      <PackagePath>Acr.UserDialogs\Acr.UserDialogs.xr.xml</PackagePath>
+      <Modified>2016-04-28T09:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\acr.userdialogs\5.0.0\lib\uap10.0\Acr.UserDialogs\ActionSheetContentDialog.xaml">
+      <PackagePath>Acr.UserDialogs\ActionSheetContentDialog.xaml</PackagePath>
+      <Modified>2016-04-28T09:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\acr.userdialogs\5.0.0\lib\uap10.0\Acr.UserDialogs\DatePickerControl.xaml">
+      <PackagePath>Acr.UserDialogs\DatePickerControl.xaml</PackagePath>
+      <Modified>2016-04-28T09:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\acr.userdialogs\5.0.0\lib\uap10.0\Acr.UserDialogs\LoginContentDialog.xaml">
+      <PackagePath>Acr.UserDialogs\LoginContentDialog.xaml</PackagePath>
+      <Modified>2016-04-28T09:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\acr.userdialogs\5.0.0\lib\uap10.0\Acr.UserDialogs\ProgressContentDialog.xaml">
+      <PackagePath>Acr.UserDialogs\ProgressContentDialog.xaml</PackagePath>
+      <Modified>2016-04-28T09:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\acr.userdialogs\5.0.0\lib\uap10.0\Acr.UserDialogs\PromptContentDialog.xaml">
+      <PackagePath>Acr.UserDialogs\PromptContentDialog.xaml</PackagePath>
+      <Modified>2016-04-28T09:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\acr.userdialogs\5.0.0\lib\uap10.0\Acr.UserDialogs\TimePickerControl.xaml">
+      <PackagePath>Acr.UserDialogs\TimePickerControl.xaml</PackagePath>
+      <Modified>2016-04-28T09:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\coding4fun.toolkit.controls\2.1.6\lib\netcore451\Coding4Fun.Toolkit.Controls\Coding4Fun.Toolkit.Controls.xr.xml">
+      <PackagePath>Coding4Fun.Toolkit.Controls\Coding4Fun.Toolkit.Controls.xr.xml</PackagePath>
+      <Modified>2015-09-15T12:12:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\coding4fun.toolkit.controls\2.1.6\lib\netcore451\Coding4Fun.Toolkit.Controls\Themes\Generic.xbf">
+      <PackagePath>Coding4Fun.Toolkit.Controls\Themes\Generic.xbf</PackagePath>
+      <Modified>2015-09-15T12:12:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\hockeysdk.uwp\4.1.6\lib\uap10.0\Microsoft.HockeyApp.Kit\Properties\Microsoft.HockeyApp.Kit.rd.xml">
+      <PackagePath>Microsoft.HockeyApp.Kit\Properties\Microsoft.HockeyApp.Kit.rd.xml</PackagePath>
+      <Modified>2017-01-24T11:25:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\xamarin.forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
+      <Modified>2016-12-14T10:32:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tushar.dhote\.nuget\packages\xamarin.forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml">
+      <PackagePath>Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml</PackagePath>
+      <Modified>2016-12-14T10:32:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-23T07:51:49.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\bin\x86\Debug\Core\ContosoAir.Clients.UWP.exe">
+      <PackagePath>ContosoAir.Clients.UWP.exe</PackagePath>
+      <Modified>2017-11-23T07:53:16.684</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.25305.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25305.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.25305.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25305.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x64\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.25305.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25305.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x86\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.25547.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25547.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.25547.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25547.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.25547.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25547.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.25547.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25547.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

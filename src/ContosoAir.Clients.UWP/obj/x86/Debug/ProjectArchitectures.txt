@@ -1,0 +1,2 @@
+D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients.UWP\ContosoAir.Clients.UWP.csproj;x86
+D:\ContosoAir Project\ContosoAir Lab-7\contosoair\src\ContosoAir.Clients\ContosoAir.Clients.Core.csproj;neutral

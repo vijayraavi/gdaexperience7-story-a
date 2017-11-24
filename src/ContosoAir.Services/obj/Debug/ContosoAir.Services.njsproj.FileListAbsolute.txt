@@ -1,0 +1,2 @@
+D:\Projects\Microsoft\contosoair\appcode\contosoair\src\ContosoAir.Services\obj\Debug\ContosoAir.Services.njsprojResolveAssemblyReference.cache
+D:\Projects\Microsoft\contosoair\appcode\contosoair\src\ContosoAir.Services\bin\Microsoft.NodejsTools.WebRole.dll
